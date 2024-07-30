@@ -1,13 +1,11 @@
 {
-	"image": "mcr.microsoft.com/devcontainers/java:1-11-bookworm",
+	"image": "mcr.microsoft.com/devcontainers/java:1-11-bullseye",
 
 	"features": {
 		"ghcr.io/devcontainers/features/java:1": {
 			"version": "none",
 			"installMaven": "true",
 			"installGradle": "false"
-		},
-		"ghcr.io/devcontainers/features/node:1": {},
-		"ghcr.io/devcontainers-contrib/features/ant-sdkman:2": {}
+		}
 	}
 }
